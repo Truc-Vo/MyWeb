@@ -40,7 +40,7 @@ if($list){
                                         <td><?php echo $item["code"] ?> </td>
                                             <td><?php echo $item["name"] ?> </td>
                                             <td><?php echo $item["price"]?> </td>
-                                        <td><img src="img\<?php echo $item["image"]?>"style="width:200px"/> </td>
+                                        <td><img src="\..\img\<?php echo $item["image"]?>"style="width:200px"/> </td>
                                             <td><?php echo $item["details"] ?> </td>
                                             <td><a href="#">Click To Buy</a> </td>
                                         </tr>
